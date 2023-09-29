@@ -1,0 +1,59 @@
+:root{
+    --background: rgb(63, 70, 99);
+    --form-body: rgb(252, 151, 18);
+    --button: rgb(80, 78, 78);
+}
+
+
+body{
+    background-color: var(--background);
+    margin: 0em;
+    padding: 0em;
+}
+
+h2{
+    color: white;
+    text-align: center;
+}
+
+form{
+    background-color: var(--form-body);
+    margin: 5em 27em;
+    padding: 3em;
+}
+
+.name{
+    display: flex;
+}
+
+.last-name{
+    margin-left: 2em;
+}
+
+.form-field{
+    padding-top: 1em;
+}
+
+input{
+    height: 30px;
+    width: 100%;
+}
+
+.submit-button{
+    margin-top: 2em;
+    width: 70%;
+    margin-left: 4em;
+    padding: 1.5em;
+    background-color: var(--button);
+    border: none;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.submit-button:hover{
+    background-color:rgb(43, 42, 42);
+    border-color:rgb(43, 42, 42);
+}
+
