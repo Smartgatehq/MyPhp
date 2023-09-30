@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login1.css">
+    <title>techmate Login Page</title>
+</head>
+<body>
+    <form action="">
+        <h2>Welcome back!</h2>
+        <p>Sign in to continue...</p>
+        <div class="form-field">
+            <input 
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email"
+            required
+            autocomplete="off"
+            >
+        </div>
+        <div class="form-field">
+            <input 
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Password"
+            required
+            autocomplete="off"
+            >
+        </div>
+        <div class="remember">
+            <p><input type="checkbox">Remember</p>
+        </div>
+        <input type="submit" class="btn" name="submit" id="submit" value="LOG IN">
+
+        <div class="create">
+            <p>New here? <a href="regform1.html">Create an Account</a></p>
+        </div>
+        <div class="forgot">
+            <p>Forgot Password? <a href="">Reset</a></p>
+        </div>
+    </form>
+</body>
+</html>
